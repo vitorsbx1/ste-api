@@ -21,6 +21,10 @@ public class TransactionServiceImpl implements TransactionService {
         listTransaction.add(transactionResponse);
     }
 
+    public void deleteTransaction(){
+        listTransaction.removeAll(listTransaction);
+    }
+
     public void validateTransaction(TransactionRequest transaction){
         validateValuesNotNull(transaction);
         validateDateTransaction(transaction);

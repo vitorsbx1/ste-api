@@ -9,4 +9,6 @@ import java.util.List;
 public interface TransactionService {
 
     public void saveTransaction(TransactionRequest transaction);
+
+    public void deleteTransaction();
 }
