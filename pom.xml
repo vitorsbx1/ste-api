@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.vitorsb.itau</groupId>
 	<artifactId>ste-api</artifactId>
-	<version>0.0.4</version>
+	<version>0.0.5</version>
 	<name>ste-api</name>
 	<description>Projeto Desafio Itau</description>
 	<url/>
@@ -51,6 +51,7 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
 	</dependencies>
 
 	<build>
